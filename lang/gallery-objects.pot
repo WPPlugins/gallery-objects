@@ -1,0 +1,385 @@
+# Translation of the WordPress plugin Gallery Objects 0.2.1 by Host Pond Web Hosting (Portland Oregon).
+# Copyright (C) 2010 Host Pond Web Hosting (Portland Oregon)
+# This file is distributed under the same license as the Gallery Objects package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gallery Objects 0.3.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/gallery-objects\n"
+"POT-Creation-Date: 2010-10-04 12:47-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gallery-objects.php:144
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: gallery-objects.php:177 gallery-objects.php:249 gallery-objects.php:452
+msgid "ALBUMS"
+msgstr ""
+
+#: gallery-objects.php:178 gallery-objects.php:250 gallery-objects.php:453
+msgid "VIEWS"
+msgstr ""
+
+#: gallery-objects.php:179 gallery-objects.php:251 gallery-objects.php:454
+msgid "HELP, SUPPORT, & UPDATES"
+msgstr ""
+
+#: gallery-objects.php:182
+msgid "Gallery Object Deleted Successfully"
+msgstr ""
+
+#: gallery-objects.php:183
+msgid "FAILED"
+msgstr ""
+
+#: gallery-objects.php:193
+msgid ""
+"This Album has Views Defined.  You should either delete theses views, or "
+"define new albums for them."
+msgstr ""
+
+#: gallery-objects.php:238
+msgid "This album currently has no view defined!"
+msgstr ""
+
+#: gallery-objects.php:254
+msgid "Edit Album Settings Here."
+msgstr ""
+
+#: gallery-objects.php:259
+msgid "Album ID"
+msgstr ""
+
+#: gallery-objects.php:261 gallery-objects.php:751
+msgid "Album Name"
+msgstr ""
+
+#: gallery-objects.php:265 gallery-objects.php:753
+msgid "Album Description"
+msgstr ""
+
+#: gallery-objects.php:269
+msgid "Update Album"
+msgstr ""
+
+#: gallery-objects.php:289
+msgid "Filter Images : By month"
+msgstr ""
+
+#: gallery-objects.php:291
+msgid "All Months"
+msgstr ""
+
+#: gallery-objects.php:300
+msgid "By text"
+msgstr ""
+
+#: gallery-objects.php:326
+msgid "Displaying"
+msgstr ""
+
+#: gallery-objects.php:327
+msgid "to"
+msgstr ""
+
+#: gallery-objects.php:327
+msgid "of"
+msgstr ""
+
+#: gallery-objects.php:458
+msgid ""
+"Insert the following code into a Page or Post to display this Gallery Object "
+"View"
+msgstr ""
+
+#: gallery-objects.php:465
+msgid "Edit View Settings Here."
+msgstr ""
+
+#: gallery-objects.php:471 gallery-objects.php:890
+msgid "View ID"
+msgstr ""
+
+#: gallery-objects.php:473 gallery-objects.php:825 gallery-objects.php:891
+msgid "View Name"
+msgstr ""
+
+#: gallery-objects.php:476 gallery-objects.php:827
+msgid "View Type"
+msgstr ""
+
+#: gallery-objects.php:481
+msgid "Albums for this View"
+msgstr ""
+
+#: gallery-objects.php:493 gallery-objects.php:842
+msgid "View Description"
+msgstr ""
+
+#: gallery-objects.php:496
+msgid "Update View"
+msgstr ""
+
+#: gallery-objects.php:507
+msgid "Appearance Settings for this View"
+msgstr ""
+
+#: gallery-objects.php:513
+msgid "Container Height"
+msgstr ""
+
+#: gallery-objects.php:516
+msgid "Container Width"
+msgstr ""
+
+#: gallery-objects.php:519
+msgid "Container Background"
+msgstr ""
+
+#: gallery-objects.php:523
+msgid "Thumbnail Height"
+msgstr ""
+
+#: gallery-objects.php:525
+msgid "eg... 25"
+msgstr ""
+
+#: gallery-objects.php:528
+msgid "Transparent Background"
+msgstr ""
+
+#: gallery-objects.php:534
+msgid "Transition Time"
+msgstr ""
+
+#: gallery-objects.php:536 gallery-objects.php:540
+msgid "in seconds"
+msgstr ""
+
+#: gallery-objects.php:538
+msgid "Transition Speed"
+msgstr ""
+
+#: gallery-objects.php:543
+msgid "Transition Effect"
+msgstr ""
+
+#: gallery-objects.php:550
+msgid "Slide Horizontal"
+msgstr ""
+
+#: gallery-objects.php:556
+msgid "Slide Vertical"
+msgstr ""
+
+#: gallery-objects.php:562
+msgid "Shrink/Grow"
+msgstr ""
+
+#: gallery-objects.php:568
+msgid "Fade"
+msgstr ""
+
+#: gallery-objects.php:578 gallery-objects.php:620
+msgid "None"
+msgstr ""
+
+#: gallery-objects.php:583
+msgid "Scroll Arrow Color"
+msgstr ""
+
+#: gallery-objects.php:587
+msgid "White"
+msgstr ""
+
+#: gallery-objects.php:592
+msgid "black"
+msgstr ""
+
+#: gallery-objects.php:595
+msgid "Display Title"
+msgstr ""
+
+#: gallery-objects.php:600
+msgid "Description Alignment"
+msgstr ""
+
+#: gallery-objects.php:608 gallery-objects.php:638
+msgid "Top"
+msgstr ""
+
+#: gallery-objects.php:611
+msgid "Display Description"
+msgstr ""
+
+#: gallery-objects.php:617
+msgid "Display HREF Link From"
+msgstr ""
+
+#: gallery-objects.php:623
+msgid "Alt"
+msgstr ""
+
+#: gallery-objects.php:626
+msgid "Caption"
+msgstr ""
+
+#: gallery-objects.php:629
+msgid "Auto Start Slideshow"
+msgstr ""
+
+#: gallery-objects.php:634
+msgid "Display thumbnails on"
+msgstr ""
+
+#: gallery-objects.php:642
+msgid "Bottom"
+msgstr ""
+
+#: gallery-objects.php:646
+msgid "Not at all"
+msgstr ""
+
+#: gallery-objects.php:651
+msgid "SHOW / HIDE Advanced Settings"
+msgstr ""
+
+#: gallery-objects.php:656
+msgid "Control Font Color"
+msgstr ""
+
+#: gallery-objects.php:661
+msgid "Control Font Size"
+msgstr ""
+
+#: gallery-objects.php:664 gallery-objects.php:684 gallery-objects.php:702
+msgid "eg. 0.8em"
+msgstr ""
+
+#: gallery-objects.php:668
+msgid "Control Font Family"
+msgstr ""
+
+#: gallery-objects.php:672 gallery-objects.php:690 gallery-objects.php:710
+msgid "Arial, Verdana"
+msgstr ""
+
+#: gallery-objects.php:674
+msgid "Description Font Color"
+msgstr ""
+
+#: gallery-objects.php:681
+msgid "Description Font Size"
+msgstr ""
+
+#: gallery-objects.php:686
+msgid "Description Font Family"
+msgstr ""
+
+#: gallery-objects.php:694
+msgid "Title Font Color"
+msgstr ""
+
+#: gallery-objects.php:699
+msgid "Title Font Size"
+msgstr ""
+
+#: gallery-objects.php:706
+msgid "Title Font Family"
+msgstr ""
+
+#: gallery-objects.php:739
+msgid "Manage Albums"
+msgstr ""
+
+#: gallery-objects.php:740
+msgid "Manage Views"
+msgstr ""
+
+#: gallery-objects.php:741
+msgid "Help, Support, & Updates"
+msgstr ""
+
+#: gallery-objects.php:747
+msgid "Create a new Album Here."
+msgstr ""
+
+#: gallery-objects.php:756
+msgid "Create Album"
+msgstr ""
+
+#: gallery-objects.php:760
+msgid "Existing Albums"
+msgstr ""
+
+#: gallery-objects.php:800
+msgid "Delete Album"
+msgstr ""
+
+#: gallery-objects.php:816
+msgid "You can not define a view until you have created an album."
+msgstr ""
+
+#: gallery-objects.php:822
+msgid "Create a new View Here."
+msgstr ""
+
+#: gallery-objects.php:832
+msgid "Album for this View"
+msgstr ""
+
+#: gallery-objects.php:845
+msgid "Create View"
+msgstr ""
+
+#: gallery-objects.php:850
+msgid "Existing Views"
+msgstr ""
+
+#: gallery-objects.php:884
+msgid "INVALID ALBUM ID"
+msgstr ""
+
+#: gallery-objects.php:892
+msgid "Album Name (ID) : "
+msgstr ""
+
+#: gallery-objects.php:898
+msgid "Edit View"
+msgstr ""
+
+#: gallery-objects.php:905
+msgid "Delete View"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Gallery Objects"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.galleryobjects.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A highly flexible and configurabe image gallery, with various flash-like "
+"display options.  1) Upload you images.  2) Create an Album.  3) Assign a "
+"View. 4) Enter [galobj viewid=VIEWID] onto a page or post."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Host Pond Web Hosting (Portland Oregon)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.hostpond.com/"
+msgstr ""
+

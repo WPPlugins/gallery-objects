@@ -1,0 +1,348 @@
+# Translation of the WordPress plugin Gallery Objects 0.2.1 by Host Pond Web Hosting (Portland Oregon).
+# Copyright (C) 2010 Host Pond Web Hosting (Portland Oregon)
+# This file is distributed under the same license as the Gallery Objects package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gallery Objects 0.2.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/gallery-objects\n"
+"POT-Creation-Date: 2010-09-24 17:36+0000\n"
+"PO-Revision-Date: 2010-09-28 09:25+0200\n"
+"Last-Translator: Weeeb Design & Hosting <admin@weeebhosting.com>\n"
+"Language-Team: Weeebdesign <info@weeebhosting.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: gallery-objects.php:121
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Bu sayfaya erişmek için yeterli izinlere sahip değilsiniz."
+
+#: gallery-objects.php:154
+#: gallery-objects.php:226
+#: gallery-objects.php:429
+msgid "ALBUMS"
+msgstr "ALBUM"
+
+#: gallery-objects.php:155
+#: gallery-objects.php:227
+#: gallery-objects.php:430
+msgid "VIEWS"
+msgstr "GÖRÜNÜM"
+
+#: gallery-objects.php:156
+#: gallery-objects.php:228
+#: gallery-objects.php:431
+msgid "HELP, SUPPORT, & UPDATES"
+msgstr "YARDIM, DESTEK, GÜNCELLEME"
+
+#: gallery-objects.php:159
+msgid "Gallery Object Deleted Successfully"
+msgstr "Galeri Başarıyla Silindi"
+
+#: gallery-objects.php:160
+msgid "FAILED"
+msgstr "BAŞARISIZ"
+
+#: gallery-objects.php:170
+msgid "This Album has Views Defined.  You should either delete theses views, or define new albums for them."
+msgstr ""
+
+#: gallery-objects.php:215
+msgid "This album currently has no view defined!"
+msgstr "Yeni bir albüm oluşturuldu."
+
+#: gallery-objects.php:231
+msgid "Edit Album Settings Here."
+msgstr "Burada albüm ayarlarını düzenleyin"
+
+#: gallery-objects.php:236
+msgid "Album ID"
+msgstr "Albüm ID"
+
+#: gallery-objects.php:238
+#: gallery-objects.php:657
+msgid "Album Name"
+msgstr "Albüm Adı"
+
+#: gallery-objects.php:242
+#: gallery-objects.php:659
+msgid "Album Description"
+msgstr "Albüm Açıklaması"
+
+#: gallery-objects.php:246
+msgid "Update Album"
+msgstr "Albümü Güncelle"
+
+#: gallery-objects.php:266
+msgid "Filter Images : By month"
+msgstr "Resimleri Sırala: Aya göre"
+
+#: gallery-objects.php:268
+msgid "All Months"
+msgstr "Tüm Aylar"
+
+#: gallery-objects.php:277
+msgid "By text"
+msgstr "Metine göre"
+
+#: gallery-objects.php:303
+msgid "Displaying"
+msgstr "Görüntüleniyor"
+
+#: gallery-objects.php:304
+msgid "to"
+msgstr ""
+
+#: gallery-objects.php:304
+msgid "of"
+msgstr ""
+
+#: gallery-objects.php:435
+msgid "Insert the following code into a Page or Post to display this Gallery Object View"
+msgstr "Resim galerisini görüntülemek için aşağıdaki kodu kopyalayıp, galeriyi görüntülemek istediğiniz yazıya veya sayfaya yapıştırın."
+
+#: gallery-objects.php:442
+msgid "Edit View Settings Here."
+msgstr "Burada görünüm ayarlarını düzenleyin."
+
+#: gallery-objects.php:448
+#: gallery-objects.php:796
+msgid "View ID"
+msgstr "Görünüm ID"
+
+#: gallery-objects.php:450
+#: gallery-objects.php:731
+#: gallery-objects.php:797
+msgid "View Name"
+msgstr "Görünüm Adı"
+
+#: gallery-objects.php:453
+#: gallery-objects.php:733
+msgid "View Type"
+msgstr "Görünüm Türü"
+
+#: gallery-objects.php:458
+msgid "Albums for this View"
+msgstr "Bu görünüm için albüm"
+
+#: gallery-objects.php:470
+#: gallery-objects.php:748
+msgid "View Description"
+msgstr "Görünüm Açıklaması"
+
+#: gallery-objects.php:473
+msgid "Update View"
+msgstr "Görünümü Güncelle"
+
+#: gallery-objects.php:484
+msgid "Appearance Settings for this View"
+msgstr "Bu görünüm için görünüm ayarları"
+
+#: gallery-objects.php:490
+msgid "Container Height"
+msgstr "Yükseklik"
+
+#: gallery-objects.php:493
+msgid "Container Width"
+msgstr "Genişlik"
+
+#: gallery-objects.php:496
+msgid "Container Background"
+msgstr "Arkaplan Rengi"
+
+#: gallery-objects.php:500
+msgid "Thumbnail Height"
+msgstr "Küçük resim Yüksekliği"
+
+#: gallery-objects.php:502
+msgid "eg... 25"
+msgstr "örneğin... 25"
+
+#: gallery-objects.php:505
+msgid "Transition Time"
+msgstr "Geçiş Zamanı"
+
+#: gallery-objects.php:507
+#: gallery-objects.php:511
+msgid "in seconds"
+msgstr "saniye içinde"
+
+#: gallery-objects.php:509
+msgid "Transition Speed"
+msgstr "Geçiş Hızı"
+
+#: gallery-objects.php:514
+msgid "Transition Effect"
+msgstr "Geçiş Efekti"
+
+#: gallery-objects.php:521
+msgid "Slide Horizontal"
+msgstr "Yatay Slayt"
+
+#: gallery-objects.php:527
+msgid "Slide Vertical"
+msgstr "Dikey Slayt"
+
+#: gallery-objects.php:533
+msgid "Shrink/Grow"
+msgstr "Küçült/Büyüt"
+
+#: gallery-objects.php:539
+msgid "Fade"
+msgstr "Soldur"
+
+#: gallery-objects.php:549
+#: gallery-objects.php:591
+msgid "None"
+msgstr "Yok"
+
+#: gallery-objects.php:554
+msgid "Scroll Arrow Color"
+msgstr "Kaydırma ok rengi"
+
+#: gallery-objects.php:558
+msgid "White"
+msgstr "Beyaz"
+
+#: gallery-objects.php:563
+msgid "black"
+msgstr "Siyah"
+
+#: gallery-objects.php:566
+msgid "Display Title"
+msgstr "Başlığı Görüntüle"
+
+#: gallery-objects.php:571
+msgid "Description Alignment"
+msgstr "Açıklama Konumu"
+
+#: gallery-objects.php:579
+msgid "Top (<strong>Problems</strong> with SLIDE effect)"
+msgstr "Üst (<strong>Dikkat</strong> beyaz slayt efektinde sorun çıkıyor)"
+
+#: gallery-objects.php:582
+msgid "Display Description"
+msgstr "Açıklamayı Görüntüle"
+
+#: gallery-objects.php:588
+msgid "Display HREF Link From"
+msgstr "Display HREF Link From"
+
+#: gallery-objects.php:594
+msgid "Alt"
+msgstr "Alt"
+
+#: gallery-objects.php:597
+msgid "Caption"
+msgstr "Caption"
+
+#: gallery-objects.php:600
+msgid "Auto Start Slideshow"
+msgstr "Otomatik Başla"
+
+#: gallery-objects.php:605
+msgid "Display thumbnails on"
+msgstr "Küçük Resimlerin Konumu"
+
+#: gallery-objects.php:609
+msgid "Top"
+msgstr "Üst"
+
+#: gallery-objects.php:613
+msgid "Bottom"
+msgstr "Alt"
+
+#: gallery-objects.php:617
+msgid "Not at all"
+msgstr "Gösterme"
+
+#: gallery-objects.php:645
+msgid "Manage Albums"
+msgstr "Albümleri Yönet"
+
+#: gallery-objects.php:646
+msgid "Manage Views"
+msgstr "Görünümleri Yönet"
+
+#: gallery-objects.php:647
+msgid "Help, Support, & Updates"
+msgstr "Yardım, Destek, Güncelleme"
+
+#: gallery-objects.php:653
+msgid "Create a new Album Here."
+msgstr "Burada yeni bir albüm oluştur"
+
+#: gallery-objects.php:662
+msgid "Create Album"
+msgstr "Albüm Oluştur"
+
+#: gallery-objects.php:666
+msgid "Existing Albums"
+msgstr "Mevcut Albümler"
+
+#: gallery-objects.php:706
+msgid "Delete Album"
+msgstr "Albümü Sil"
+
+#: gallery-objects.php:722
+msgid "You can not define a view until you have created an album."
+msgstr "Albüm oluşturana kadar herhangi bir görünüm oluşturamazsınız."
+
+#: gallery-objects.php:728
+msgid "Create a new View Here."
+msgstr "Burada yeni bir görünüm oluştur"
+
+#: gallery-objects.php:738
+msgid "Album for this View"
+msgstr "Bu görünüm için albüm"
+
+#: gallery-objects.php:751
+msgid "Create View"
+msgstr "Görünüm Oluştur"
+
+#: gallery-objects.php:756
+msgid "Existing Views"
+msgstr "Mevcut Görünümler"
+
+#: gallery-objects.php:790
+msgid "INVALID ALBUM ID"
+msgstr "GEÇERSİZ ALBÜM ID"
+
+#: gallery-objects.php:798
+msgid "Album Name (ID) : "
+msgstr "Alkbüm Adı (ID):"
+
+#: gallery-objects.php:804
+msgid "Edit View"
+msgstr "Görünümü Düzenle"
+
+#: gallery-objects.php:811
+msgid "Delete View"
+msgstr "Görünümü Sil"
+
+#. Plugin Name of the plugin/theme
+msgid "Gallery Objects"
+msgstr "Resim Galerisi"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.galleryobjects.com/"
+msgstr "http://www.galleryobjects.com/"
+
+#. Description of the plugin/theme
+msgid "A highly flexible and configurabe image gallery, with various flash-like display options.  1) Upload you images.  2) Create an Album.  3) Assign a View. 4) Enter [galobj viewid=VIEWID] onto a page or post."
+msgstr "Flash gibi ekran seçenekleri olan, son derece esnek ve düzenlenebilir resim galerisi. Nasıl kullanılır ? 1.- Resimlerinizi yükleyin. 2.- Bir albüm oluşturun. 3.- Görünüm atayın. 4.- Yayınlamak istediğiniz sayfa kodu yazın."
+
+#. Author of the plugin/theme
+msgid "Host Pond Web Hosting (Portland Oregon)"
+msgstr "Host Pond Web Hosting (Portland Oregon)"
+
+#. Author URI of the plugin/theme
+msgid "http://www.hostpond.com/"
+msgstr "http://www.hostpond.com/"
+

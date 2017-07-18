@@ -1,0 +1,169 @@
+.galobj-ad-gallery {
+  width: [CONTAINER.WIDTH]px;
+}
+.galobj-ad-gallery, .galobj-ad-gallery * {
+  margin: 0;
+  padding: 0;
+}
+  .galobj-ad-gallery .galobj-ad-image-wrapper {
+    width: 100%;
+    height: [CONTAINER.HEIGHT]px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+    .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-loader {
+      position: absolute;
+      z-index: 10;
+      top: 48%;
+      left: 48%;
+      border: 1px solid #CCC;
+    }
+    .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-next {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 25%;
+      height: 100%;
+      cursor: pointer;
+      display: block;
+      z-index: 100;
+    }
+    .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-prev {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 25%;
+      height: 100%;
+      cursor: pointer;
+      display: block;
+      z-index: 100;
+    }
+    .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-prev, .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-next {
+      /* Or else IE will hide it */
+      background: url(non-existing.jpg)
+    }
+      .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-prev .galobj-ad-prev-image, .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-next .galobj-ad-next-image {
+        background: url([GO.IMAGE.URL]ad_prev.png);
+        width: 30px;
+        height: 30px;
+        display: none;
+        position: absolute;
+        top: 47%;
+        left: 0;
+        z-index: 101;
+      }
+      .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-next .galobj-ad-next-image {
+        background: url([GO.IMAGE.URL]ad_next.png);
+        width: 30px;
+        height: 30px;
+        right: 0;
+        left: auto;
+      }
+    .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-image {
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+      z-index: 9;
+    }
+      .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-image a img {
+        border: 0;
+      }
+      .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-image .galobj-ad-image-description {
+        position: absolute;
+        [DESCRIPTION.ALIGN]: 0px;
+	left: 0px;
+	padding: 7px;
+        text-align: left;
+        width: 100%;
+        z-index: 2;
+        background: url([GO.IMAGE.URL]opa75.png);
+        color: #000;
+      }
+      * html .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-image .galobj-ad-image-description {
+        background: none;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (enabled=true, sizingMethod=scale, src='[GO.IMAGE.URL]opa75.png');
+      }
+        .galobj-ad-gallery .galobj-ad-image-wrapper .galobj-ad-image .galobj-ad-image-description .galobj-ad-description-title {
+          display: block;
+        }
+  .galobj-ad-gallery .galobj-ad-controls {
+    height: 20px;
+  }
+    .galobj-ad-gallery .galobj-ad-info {
+      float: left;
+    }
+    .galobj-ad-gallery .galobj-ad-slideshow-controls {
+      float: right;
+    }
+      .galobj-ad-gallery .galobj-ad-slideshow-controls .galobj-ad-slideshow-start, .galobj-ad-gallery .galobj-ad-slideshow-controls .galobj-ad-slideshow-stop {
+        padding-left: 5px;
+        cursor: pointer;
+      }
+      .galobj-ad-gallery .galobj-ad-slideshow-controls .galobj-ad-slideshow-countdown {
+        padding-left: 5px;
+        font-size: 0.9em;
+      }
+    .galobj-ad-gallery .galobj-ad-slideshow-running .galobj-ad-slideshow-start {
+      cursor: default;
+      font-style: italic;
+    }
+  .galobj-ad-gallery .galobj-ad-nav {
+    width: 100%;
+    position: relative;
+  }
+    .galobj-ad-gallery .galobj-ad-forward, .galobj-ad-gallery .galobj-ad-back {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      z-index: 10;
+    }
+    /* IE 6 doesn't like height: 100% */
+    * html .galobj-ad-gallery .galobj-ad-forward, .galobj-ad-gallery .galobj-ad-back {
+      height: 100px;
+    }
+    .galobj-ad-gallery .galobj-ad-back {
+      cursor: pointer;
+      left: -20px;
+      width: 13px;
+      display: block;
+      background: url([GO.IMAGE.URL]ad_scroll_back-[SCROLL.COLOR].png) 0px 22px no-repeat;
+    }
+    .galobj-ad-gallery .galobj-ad-forward {
+      cursor: pointer;
+      display: block;
+      right: -20px;
+      width: 13px;
+      background: url([GO.IMAGE.URL]ad_scroll_forward-[SCROLL.COLOR].png) 0px 22px no-repeat;
+    }
+    .galobj-ad-gallery .galobj-ad-nav .galobj-ad-thumbs {
+      overflow: hidden;
+      width: 100%;
+    }
+      .galobj-ad-gallery .galobj-ad-thumbs .galobj-ad-thumb-list {
+        float: left;
+        width: 9000px;
+        list-style: none;
+      }
+        .galobj-ad-gallery .galobj-ad-thumbs li {
+          float: left;
+          padding-right: 5px;
+        }
+          .galobj-ad-gallery .galobj-ad-thumbs li a {
+            display: block;
+          }
+            .galobj-ad-gallery .galobj-ad-thumbs li a img {
+              border: 3px solid #CCC;
+              display: block;
+            }
+            .galobj-ad-gallery .galobj-ad-thumbs li a.galobj-ad-active img {
+              border: 3px solid #616161;
+            }
+/* Can't do display none, since Opera won't load the images then */
+.galobj-ad-preloads {
+  position: absolute;
+  left: -9000px;
+  top: -9000px;
+}
+
